@@ -2,9 +2,9 @@
   "name": "dejavue",
   "version": "0.1.0",
   "description": "Flux implementation for Vue.js",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/juliojordan/dejavue#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "eslint": "^7.0.0",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "2.0.5"
