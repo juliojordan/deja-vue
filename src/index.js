@@ -1,7 +1,9 @@
 export default {
-  install(Vue, options) {
-    Vue.prototype.$dejavue = function (methodOptions) {
-      /* magic */
+  install(Vue, { state }) {
+    const _state = { ...state };
+    Object.freeze(_state);
+    Vue.prototype.$dv = function () {
+      return _state;
     };
   }
 };
