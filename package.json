@@ -1,6 +1,6 @@
 {
   "name": "dejavue",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "Flux implementation for Vue.js",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juliojordan/dejavue.git"
+    "url": "git+https://github.com/juliojordan/deja-vue.git"
   },
   "keywords": [
     "vue"
@@ -16,9 +16,9 @@
   "author": "Julio Jordan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juliojordan/dejavue/issues"
+    "url": "https://github.com/juliojordan/deja-vue/issues"
   },
-  "homepage": "https://github.com/juliojordan/dejavue#readme",
+  "homepage": "https://github.com/juliojordan/deja-vue#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
