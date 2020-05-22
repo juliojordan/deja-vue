@@ -1,5 +1,5 @@
 {
-  "name": "dejavue",
+  "name": "deja-vue",
   "version": "2.0.0",
   "description": "Flux implementation for Vue.js",
   "main": "lib/index.js",
