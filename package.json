@@ -11,7 +11,7 @@
     "url": "git+https://github.com/juliojordan/deja-vue.git"
   },
   "keywords": [
-    "vue"
+    "flux", "vue"
   ],
   "author": "Julio Jordan",
   "license": "MIT",
