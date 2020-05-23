@@ -4,7 +4,10 @@
   "description": "Flux implementation for Vue.js",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "compile": "npm run prettier && npm run eslint && npm run build",
+    "eslint": "eslint --fix src/",
+    "prettier": "prettier --write src/"
   },
   "repository": {
     "type": "git",
